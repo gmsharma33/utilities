@@ -19,7 +19,7 @@ import java.util.List;
 public class S3Test {
 
     public static void main(String[] args) throws IOException {
-        AWSCredentials awsCredentials = new BasicAWSCredentials("AKIA4TANUWPAQAUKQGSH", "VM3uvVvP1Inijm8o21RDEAPwQpm+7cwgLi3nEqjf");
+        AWSCredentials awsCredentials = new BasicAWSCredentials("ggjh", "jgh");
 
         AmazonS3 amazonS3Client = AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(awsCredentials)).withRegion(Regions.US_EAST_1).build();
 
